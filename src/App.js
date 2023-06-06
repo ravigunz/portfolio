@@ -1,13 +1,13 @@
 import './App.css';
-import FooterLayout from './common/FooterLayout';
-import HeaderLayout from './common/HeaderLayout';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './layouts/pages/pages';
+import { Header, Footer, Home, Education, Projects, Telecommunication, WebDevelopment} from './layouts/pages/pages';
 
 function App() {
   return (
     <div className="App">
-      <HeaderLayout />
-      <FooterLayout />
+    <Header />
+    <Footer />
     </div>
   );
 }

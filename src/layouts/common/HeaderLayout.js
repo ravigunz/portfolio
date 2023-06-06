@@ -1,4 +1,3 @@
-import { hover } from "@testing-library/user-event/dist/hover";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
